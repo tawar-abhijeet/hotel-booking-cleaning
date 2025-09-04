@@ -24,7 +24,7 @@ The initial analysis revealed several key problems with the raw data: <br>
    - Bookings existed with zero total guests. <br>
    - The `adr` (Average Daily Rate) column contained negative values, which are impossible. <br>
 
-## 🛠Cleaning Process <br>
+## Cleaning Process <br>
 The cleaning process was performed in a structured manner within the Jupyter Notebook: <br>
 
 1. **Data Loading & Initial Inspection** – Loaded the data and performed a thorough initial analysis using statistical summaries (`.describe()`) and visualizations (`seaborn`, `matplotlib`). <br>
@@ -48,5 +48,5 @@ The cleaning process had a significant impact on the dataset’s quality and rel
 - **Total Rows Removed**: **32,608 rows** (27.31% of the dataset) were removed due to duplicates and invalid data. <br>
 - **Final Dataset**: Clean, consistent, and ready for accurate analysis with no critical missing values or duplicates. <br>
 
-## 📜 License <br>
+## License <br>
 This project is licensed under the MIT License. <br>
