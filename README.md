@@ -39,7 +39,6 @@ The cleaning process was performed in a structured manner within the Jupyter Not
 ## Tools and Libraries Used <br>
 - **Python** <br>
 - **Pandas** – Data manipulation and cleaning <br>
-- **Matplotlib & Seaborn** – Data visualization <br>
 - **Jupyter Notebook** – Project environment <br>
 
 ## Results <br>
