@@ -11,7 +11,7 @@ The entire process is documented in the `Hotel-bookings-cleaning.ipynb` Jupyter 
 
 ##  Project Overview <br>
 The project involved a comprehensive data cleaning process on a large dataset containing booking information for a city hotel and a resort hotel. The raw dataset contained numerous issues that would lead to inaccurate analysis, such as missing values, duplicates, and illogical data entries. <br>
-This project showcases the ability to systematically identify and resolve data quality issues, preparing the data for exploratory data analysis, visualization, and machine learning tasks. <br>
+This project showcases the ability to systematically identify and resolve data quality issues, preparing the data for exploratory data analysis and machine learning tasks. <br>
 
 ##  Data Quality Issues Identified <br>
 The initial analysis revealed several key problems with the raw data: <br>
@@ -27,7 +27,7 @@ The initial analysis revealed several key problems with the raw data: <br>
 ## Cleaning Process <br>
 The cleaning process was performed in a structured manner within the Jupyter Notebook: <br>
 
-1. **Data Loading & Initial Inspection** – Loaded the data and performed a thorough initial analysis using statistical summaries (`.describe()`) and visualizations (`seaborn`, `matplotlib`). <br>
+1. **Data Loading & Initial Inspection** – Loaded the data and performed a thorough initial analysis using statistical summaries (`.describe()`). <br>
 2. **Standardized Column Names** – Converted all column names to snake_case for easier access. <br>
 3. **Handled Missing Values** – Applied strategies to fill or drop missing values based on the column context. <br>
 4. **Combined Date Columns** – Created a single, unified `arrival_date` column from the three separate date components. <br>
